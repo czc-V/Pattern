@@ -9,7 +9,6 @@ public class Client {
         operation.b=2;
         System.out.println(operation.getResult());
 
-        operation=Factory.createOperation("未知符号");
     }
 
 
