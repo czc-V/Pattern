@@ -8,7 +8,6 @@ chengzhichao
 让JVM保证线程安全和单一实例的问题，规避了反射攻击以及反序列化攻击的情况，
  */
 
-import java.sql.SQLSyntaxErrorException;
 
 public enum EnumSingleton {
 
@@ -16,6 +15,4 @@ public enum EnumSingleton {
     public void doSomething(){
         System.out.println("doSomething");
     }
-
-
 }
