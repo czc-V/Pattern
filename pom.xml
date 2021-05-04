@@ -14,12 +14,13 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/net.sf.cglib/cglib-nodep-javadoc -->
+        <!-- https://mvnrepository.com/artifact/cglib/cglib-nodep -->
         <dependency>
-            <groupId>net.sf.cglib</groupId>
-            <artifactId>cglib-nodep-javadoc</artifactId>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
             <version>2.2</version>
         </dependency>
+
 
     </dependencies>
 

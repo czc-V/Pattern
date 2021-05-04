@@ -1,5 +1,8 @@
 package strategy;
 
+/**
+ * @author 程智超
+ */
 public class Client {
 
     public static void main(String[] args){

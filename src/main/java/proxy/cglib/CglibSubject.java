@@ -15,9 +15,5 @@ public class CglibSubject implements Subject {
 
     }
 
-    public void sendRing(){
-        System.out.println("cglib送戒指");
-
-    }
 
 }

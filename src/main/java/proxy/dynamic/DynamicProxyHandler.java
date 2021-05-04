@@ -1,14 +1,13 @@
 package proxy.dynamic;
 
-/*
-chengzhichao
-2021/4/8
-代理模式动态代理测试类
- */
-
 import proxy.Real;
 import proxy.Subject;
 
+/**
+ * @author 程智超
+ * 2021/4/8
+ * 代理模式动态代理测试类
+ */
 public class DynamicProxyHandler {
 
     public static void main(String[] args){
