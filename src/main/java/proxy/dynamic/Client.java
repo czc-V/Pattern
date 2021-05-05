@@ -11,8 +11,7 @@ import proxy.Subject;
 public class Client {
 
     public static void main(String[] args) {
-        ProxyObject proxyObject=new ProxyObject();
-        Subject subject=(Subject) proxyObject.bind(new Real());
+        Subject subject=(Subject) ProxyObject.bind(new Real(),"proxy.dynamic.MyInterceptor");
         subject.sendFlowers();
         subject.sendDolls();
     }
