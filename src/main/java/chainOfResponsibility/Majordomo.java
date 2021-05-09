@@ -6,6 +6,7 @@ package chainOfResponsibility;
  * @description：
  */
 
+@HandlerAnnotation(offset = 2)
 public class Majordomo extends CommonManager{
 
     public Majordomo(String name){

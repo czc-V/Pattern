@@ -5,7 +5,7 @@ package chainOfResponsibility;
  * @date ：Created in 2021/5/6
  * @description：责任链第一层链路，经理。
  */
-
+@HandlerAnnotation(offset = 1)
 public class Manger extends CommonManager{
 
     public Manger(String name){

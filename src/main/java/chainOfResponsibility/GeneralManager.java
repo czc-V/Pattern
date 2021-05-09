@@ -6,6 +6,7 @@ package chainOfResponsibility;
  * @description：
  */
 
+@HandlerAnnotation(offset = 3)
 public class GeneralManager extends CommonManager{
 
     public GeneralManager(String name){

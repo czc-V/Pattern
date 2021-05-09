@@ -7,6 +7,7 @@ package chainOfResponsibility;
  * 责任链模式模拟实现管理者之间的传递关系
  */
 
+
 public abstract class CommonManager {
 
     protected String name;
